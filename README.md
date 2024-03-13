@@ -25,16 +25,13 @@ jobs:
         uses: actions/checkout@v4
       - name: Annotate major and minor version
         uses: tapih/tag-semver-alias@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }
 ```
 
 ### Inputs
 
-| **Input**      | **Required** | **Description**            |
-| -------------- | ------------ | -------------------------- |
-| `github_token` | yes          | GitHub Token               |
-| `tag`          | no           | The semver tag to annotate |
+| **Input** | **Required** | **Description**            |
+| --------- | ------------ | -------------------------- |
+| `tag`     | no           | The semver tag to annotate |
 
 ### Outputs
 

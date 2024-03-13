@@ -8,9 +8,6 @@ description: |
 author: tapih
 
 inputs:
-  github_token:
-    description: 'GitHub token'
-    required: true
   tag:
     description: 'The semver tag to annotate'
     required: false
@@ -39,12 +36,12 @@ runs:
       run: |
         if [ -n "${{ inputs.tag }}" ]; then
           echo "Using provided tag"
-          echo "TAG=${INPUT}" >> "${$GITHUB_ENV}"
+          echo "TAG=${INPUT}" >> "${GITHUB_ENV}"
           exit 0
         fi
 
         echo "No tag provided, using GITHUB_REF"
-        echo "TAG=${GITHUB_REF#refs/tags/}" >> "${$GITHUB_ENV}"
+        echo "TAG=${GITHUB_REF#refs/tags/}" >> "${GITHUB_ENV}"
 
     - name: Validate tag
       shell: bash
@@ -61,7 +58,7 @@ runs:
         {
           echo "MINOR_TAG=${TAG%.*}"
           echo "MAJOR_TAG=${MINOR_TAG%.*}"
-        } >> "${$GITHUB_ENV}"
+        } >> "${GITHUB_ENV}"
 
     - name: Configure git
       shell: bash
