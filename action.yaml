@@ -57,7 +57,7 @@ runs:
       run: |
         {
           echo "MINOR_TAG=${TAG%.*}"
-          echo "MAJOR_TAG=${MINOR_TAG%.*}"
+          echo "MAJOR_TAG=${TAG%.*.*}"
         } >> "${GITHUB_ENV}"
 
     - name: Configure git
