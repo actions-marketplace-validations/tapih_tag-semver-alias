@@ -1,5 +1,9 @@
 # Changelog
 
+## [v1.0.3](https://github.com/tapih/tag-semver-alias/compare/v1.0.2...v1.0.3) - 2024-03-13
+- fix: overwrite tags by force push by @tapih in https://github.com/tapih/tag-semver-alias/pull/19
+- chore(deps): update songmu/tagpr action to v1.2.0 - autoclosed by @renovate in https://github.com/tapih/tag-semver-alias/pull/20
+
 ## [v1.0.2](https://github.com/tapih/tag-semver-alias/compare/v1.0.1...v1.0.2) - 2024-03-13
 - chore: update name in action.yaml by @tapih in https://github.com/tapih/tag-semver-alias/pull/17
 
