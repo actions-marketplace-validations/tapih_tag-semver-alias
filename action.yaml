@@ -72,5 +72,5 @@ runs:
       run: |
         git tag -f -a "${MAJOR_TAG}" -m "Release ${TAG}"
         git tag -f -a "${MINOR_TAG}" -m "Release ${TAG}"
-        git push origin "${MAJOR_TAG}" "${MINOR_TAG}"
+        git push -f origin "${MAJOR_TAG}" "${MINOR_TAG}"
 
