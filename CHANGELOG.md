@@ -1,5 +1,8 @@
 # Changelog
 
+## [v1.0.2](https://github.com/tapih/tag-semver-alias/compare/v1.0.1...v1.0.2) - 2024-03-13
+- chore: update name in action.yaml by @tapih in https://github.com/tapih/tag-semver-alias/pull/17
+
 ## [v1.0.1](https://github.com/tapih/tag-semver-alias/compare/v1...v1.0.1) - 2024-03-13
 - fix: use INPUT env instead of input.tag by @tapih in https://github.com/tapih/tag-semver-alias/pull/15
 
