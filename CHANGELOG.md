@@ -1,5 +1,10 @@
 # Changelog
 
+## [v1.0.0](https://github.com/tapih/tag-semver-alias/compare/v0.0.3...v1.0.0) - 2024-03-13
+- empty by @tapih in https://github.com/tapih/tag-semver-alias/pull/8
+- tapih/rename action yaml by @tapih in https://github.com/tapih/tag-semver-alias/pull/10
+- Revert "fix: rename action.yaml to action.yml to publish action to marketplace" by @tapih in https://github.com/tapih/tag-semver-alias/pull/12
+
 ## [v0.0.3](https://github.com/tapih/tag-semver-alias/compare/v0.0.2...v0.0.3) - 2024-03-13
 - fix(ci): correct MAJOR_TAG retrieval by @tapih in https://github.com/tapih/tag-semver-alias/pull/6
 
