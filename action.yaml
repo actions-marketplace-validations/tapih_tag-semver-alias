@@ -35,7 +35,7 @@ runs:
       env:
         INPUT: ${{ inputs.tag }}
       run: |
-        if [ -n "${{ inputs.tag }}" ]; then
+        if [ -n "${INPUT}" ]; then
           echo "Using provided tag"
           echo "TAG=${INPUT}" >> "${GITHUB_ENV}"
           exit 0
