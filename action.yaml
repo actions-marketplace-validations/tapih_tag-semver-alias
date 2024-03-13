@@ -1,4 +1,4 @@
-name: 'Annotate tag alias retrieve from semver'
+name: 'Annotate major and minor version tags extracted from semver'
 description: |
   Annotate major and minor version tags with the corresponding semver version.
 
