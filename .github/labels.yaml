@@ -1,0 +1,18 @@
+# tagpr - this is used by tagpr management
+- name: tagpr
+  description: Tagpr annotates this label to the version bump PR
+  color: ecf0f1
+- name: tagpr:minor
+  description: Tagpr updates minor version when annotated manually
+  color: 1abc9c
+- name: tagpr:major
+  description: Tagpr updates major version when annotated manually
+  color: 1abc9c
+
+# release - this is used by release management
+- name: release/minor
+  description: Tagpr updates minor version when annotated manually
+  color: 8e44ad
+- name: release/major
+  description: Tagpr updates major version when annotated manually
+  color: 8e44ad
