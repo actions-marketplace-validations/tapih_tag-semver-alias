@@ -4,3 +4,4 @@
 	changelog = true
 	majorLabels = release/major
 	minorLabels = release/minor
+	versionFile = -
